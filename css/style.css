@@ -1,0 +1,47 @@
+html{
+
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #ec2127;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.left{grid-column:1/2;}
+
+.center{grid-column:2/3;}
+
+.right{grid-column:3/4;}
+
+span{
+    align-self: center;
+}
+
+h1{
+    font-size: 200%;
+}
+
+button{
+    background-color: #ec2127;
+    border: none;
+    border-radius: 12px;
+    font-size: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+b{
+    color:black; 
+    background-color: #ec2127;
+}
